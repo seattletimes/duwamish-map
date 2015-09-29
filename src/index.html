@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <responsive-child>
+      <leaflet-map class="duwamish" lat="47.245" lng="-121.727" zoom="13">
+        <tile-layer layer="esriTerrain"></tile-layer>
+        <tile-layer layer="esriTerrainLabels"></tile-layer>
+        <!-- <map-marker lat="47.245" lng="-121.727" class="river-marker">
+Starting the trip.
+        </map-marker> -->
+        <% json.DuwamishSwimmer_POI.forEach(function(row) { %>
+        <map-marker
+          class="river-marker"
+          lat="<%= row.lat %>"
+          lng="<%= row.lng %>"
+        >
+          <h2><%= row.title %></h2>
+          <p><%= row.description %></p>
+          <% if (row.vimeo) { %>
+          There's a video <%= row.vimeo %>!
+          <% } %>
+        </map-marker>
+        <% }) %>
+      </leaflet-map>
+    </responsive-child>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
