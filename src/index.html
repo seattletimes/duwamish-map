@@ -10,12 +10,9 @@
   <body>
 
     <responsive-child>
-      <leaflet-map class="duwamish" lat="47.245" lng="-121.727" zoom="13">
-        <tile-layer layer="esriTerrain"></tile-layer>
+      <leaflet-map class="duwamish" lat="47.245" lng="-121.727" zoom="8">
+        <tile-layer layer="esriImagery"></tile-layer>
         <tile-layer layer="esriTerrainLabels"></tile-layer>
-        <!-- <map-marker lat="47.245" lng="-121.727" class="river-marker">
-Starting the trip.
-        </map-marker> -->
         <% json.DuwamishSwimmer_POI.forEach(function(row) { %>
         <map-marker
           class="river-marker"
@@ -25,7 +22,7 @@ Starting the trip.
           <h2><%= row.title %></h2>
           <p><%= row.description %></p>
           <% if (row.vimeo) { %>
-          There's a video <%= row.vimeo %>!
+          <iframe src="https://player.vimeo.com/video/<%= row.vimeo %>" width="300" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <% } %>
         </map-marker>
         <% }) %>

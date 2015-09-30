@@ -1,17 +1,11 @@
 [
   {
-    "title": "Howard A. Hanson Resevoir",
-    "lat": 47.2452119,
-    "lng": "-121.727314",
-    "description": "The Howard A. Hanson reservoir provides flood control for the surrounding communities, and drinking water for the city of Tacoma.",
-    "vimeo": "",
-    "youtube": ""
-  },
-  {
     "title": "The adventure begins!",
     "lat": 47.1424547,
     "lng": "-121.3118023",
     "description": "",
+    "month": "",
+    "year": "",
     "vimeo": 129678278,
     "youtube": ""
   },
@@ -19,8 +13,230 @@
     "title": "Upper Green River",
     "lat": 47.1791832,
     "lng": "-121.38515",
-    "description": "Check out the underwater footage of Mark's swim through the shallow headwaters of the Green River",
+    "description": "Underwater footage of Mark's swim through the shallow headwaters of the Green River",
+    "month": "",
+    "year": "",
     "vimeo": 131679923,
+    "youtube": ""
+  },
+  {
+    "title": "Fresh start",
+    "lat": 47.143,
+    "lng": "-121.308",
+    "description": "Start of the Mark's swim at the headwaters of the Green-Duwamish River: trickles of water down the steep slopes of Blowout Mountain",
+    "month": "October",
+    "year": 2014,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Full of life",
+    "lat": 47.214,
+    "lng": "-121.441",
+    "description": "Tumbling, green oxygenated cold water alive with fish in the headwaters of the Green, which runs into the Duwamish. Unlimited visibility, crystal clear water",
+    "month": "October",
+    "year": 2014,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Things get chilly",
+    "lat": 47.217,
+    "lng": "-121.475",
+    "description": "Washington's only ghost town: Lester. Coldest swim of the journey: water only 42 degrees, air temperature 32 degrees. Icicles on the twigs overhanging the banks",
+    "month": "November",
+    "year": 2014,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "",
+    "lat": 47.313,
+    "lng": "-121.866",
+    "description": "Saw a bobcat",
+    "month": "June ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Steelhead",
+    "lat": 47.322,
+    "lng": "-121.899",
+    "description": "Saw first adult steelhead, many other fish, mostly young salmon and steelhead. ",
+    "month": "June ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "River otters and inner tubers",
+    "lat": 47.272,
+    "lng": "-122.024",
+    "description": "First bottles and cans. Inner tubers. Saw an eagle, crawdaddy eating a dead fish. Saw a family of three river otters playing. Saw a frog holding in a hidey hole underwater. Fishing lure and line snagged on a stick in the river. ",
+    "month": "June ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Things get warm",
+    "lat": 47.284,
+    "lng": "-122.087",
+    "description": "Farms, cows. People swimming. Hottest swim of the journey, water 73 degrees. Air temperature over 90 degrees. Lots of birds: mergansers, kingfishers, great blue herons. ",
+    "month": "July",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Whirlpool",
+    "lat": 47.276,
+    "lng": "-122.11",
+    "description": "Interesting whirlpool behind a rock. Big schools of salmon. Tall cottonwood and maple trees on river banks. ",
+    "month": "July",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "\"A big pile of clothes\"",
+    "lat": 47.306,
+    "lng": "-122.188",
+    "description": "Big log jam blocks the river, walked around it. Found first discarded junk in the river: a big pile of clothes. Three barking dogs making a commotion. Farms transitioning to suburbs.",
+    "month": "July",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "A watch",
+    "lat": 47.335,
+    "lng": "-122.21",
+    "description": "Saw three mink. Found a discarded bicycle, a scooter, and a desk under a bridge. Found a working watch, white with a white band. Still using it.  ",
+    "month": "July",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Pink salmon",
+    "lat": 47.363,
+    "lng": "-122.225",
+    "description": "First adult pink salmon in the river. ",
+    "month": "August",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Trash and restoration",
+    "lat": 47.371,
+    "lng": "-122.248",
+    "description": "Habitat restoration project, including side channel for young fish to rest. Discarded skateboard with fishing lure in it. Huge truck tire in the river. Shopping cart. Irrigation pipe taking water from river. ",
+    "month": "August",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Spawning",
+    "lat": 47.406,
+    "lng": "-122.274",
+    "description": "Swam with thousands and thousands of pink salmon, even touched one. Lots of salmon jumping. ",
+    "month": "August",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Treasure hunters",
+    "lat": 47.439,
+    "lng": "-122.247",
+    "description": "Two guys in wet suits: junk pickers looking for treasures in the river, harvested into floating rafts. Soccer ball drifts by. Salmon jumping. ",
+    "month": "August",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Duwamish begins",
+    "lat": 47.474,
+    "lng": "-122.252",
+    "description": "Green River turns into the Duwamish at this point. River is surrounded by freeways. Train tracks next to river. Washing machine in the river. Roar of traffic. Ocean tides reach this high in the river. ",
+    "month": "September ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Things get cloudy",
+    "lat": 47.503,
+    "lng": "-122.297",
+    "description": "River getting murky, hard to see. Lots of fishermen, and some are getting lots of fish. Industry and highways all around and along the river. Visibility low as five feet, hard to see anything underwater. ",
+    "month": "September ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Salty water and sea lions",
+    "lat": 47.53,
+    "lng": "-122.314",
+    "description": "Shoreline developed with docks, pilings, loading and unloading ramps, marinas. Heavy industry, most of shoreline is human-constructed. Lots of stormdrains. Osprey eating a salmon. Water getting salty and cooler. Sea lions in distance. Tribal fishing nets catching salmon. ",
+    "month": "September ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Cargo",
+    "lat": 47.585,
+    "lng": "-122.366",
+    "description": "Encountering the Duwamish Diagonal: the biggest storm drain in Seattle, maybe ten feet wide and across.  Duwamish tribal longhouse. heavy industry, cargo shipping terminal, cranes, stacks of cargo containers. ",
+    "month": "September ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Choppy waters",
+    "lat": 47.585,
+    "lng": "-122.366",
+    "description": "Sea lions come close; they are very big! Windy, water is rough. It's hard to swim. ",
+    "month": "September ",
+    "year": 2015,
+    "vimeo": "",
+    "youtube": ""
+  },
+  {
+    "title": "Filming fish",
+    "lat": 47.3191848,
+    "lng": "-121.9002844",
+    "description": "",
+    "month": "",
+    "year": "",
+    "vimeo": 132868833,
+    "youtube": ""
+  },
+  {
+    "title": "Swimming with Martha and Sheida",
+    "lat": 47.3363797,
+    "lng": "-122.2087169",
+    "description": "",
+    "month": "",
+    "year": "",
+    "vimeo": 135591507,
+    "youtube": ""
+  },
+  {
+    "title": "Swimming with salmon",
+    "lat": 47.5343563,
+    "lng": "-122.3231506",
+    "description": "",
+    "month": "",
+    "year": "",
+    "vimeo": 139857141,
     "youtube": ""
   }
 ]
