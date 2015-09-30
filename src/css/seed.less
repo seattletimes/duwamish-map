@@ -6,26 +6,131 @@
 }
 
 @import "seattletimes";
+@import "flexbox";
+
+.aspect-outer {
+  width: 100%;
+  max-width: 960px;
+
+  .aspect-inner {
+    height: 0;
+    padding-bottom: percentage(9 / 16);
+    position: relative;
+
+    @media @mobile {
+      padding-bottom: 100%;
+    }
+
+    leaflet-map {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
 
 .duwamish {
   height: 600px;
   width: 100%;
 
   h2 {
-    font-family: @df-serif;
+    font-size: 16px;
+    margin: 0;
   }
+
   p {
+    font-size: 14px;
+  }
+
+  .leaflet-popup-content-wrapper {
     font-family: @df-serif;
+    border-radius: 0;
+  }
+
+  .leaflet-control-zoom {
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  .date {
+    text-transform: uppercase;
+    font-family: @df-sans;
+  }
+
+  iframe {
+    width: 320px;
+    height: 180px;
+    margin: auto;
+    display: block;
+
+    @media @mobile {
+      width: 200px;
+      height: 140px;
+    }
   }
 
 }
 
 .river-marker {
-    background: @df-blue;
-    border: 1px solid white;
-    border-radius: 100%;
-    width: 16px;
-    height: 16px;
-    margin-left: -8px;
-    margin-top: -8px;
+  @marker-color: @st-dark-blue;
+
+  background: @df-blue;
+  border: 1px solid rgba(0, 0, 0, .5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  margin-top: -8px;
+
+
+  &.October-2014 {
+    background: lighten(@marker-color, 10%);
+  }
+
+  &.November-2014 {
+    background: lighten(@marker-color, 0%);
+  }
+
+  &.June-2015 {
+    background: darken(@marker-color, 10%);
+  }
+
+  &.July-2015 {
+    background: darken(@marker-color, 20%);
+  }
+
+  &.August-2015 {
+    background: darken(@marker-color, 30%);
+  }
+
+  &.September-2015 {
+    background: darken(@marker-color, 40%);
+  }
+}
+
+.controls {
+  .display-flex;
+  max-width: 960px;
+  border: 1px solid @df-light-gray;
+
+  .button {
+    .flex(0 0 50%);
+    text-align: center;
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-family: @df-sans;
+    cursor: pointer;
+
+    &:first-child {
+      border-right: 1px solid @df-light-gray;
+    }
+
+    &:hover {
+      background: @df-light-gray;
+    }
+  }
 }

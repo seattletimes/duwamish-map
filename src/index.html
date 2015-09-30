@@ -10,23 +10,36 @@
   <body>
 
     <responsive-child>
-      <leaflet-map class="duwamish" lat="47.245" lng="-121.727" zoom="8">
-        <tile-layer layer="esriImagery"></tile-layer>
-        <tile-layer layer="esriTerrainLabels"></tile-layer>
-        <% json.DuwamishSwimmer_POI.forEach(function(row) { %>
-        <map-marker
-          class="river-marker"
-          lat="<%= row.lat %>"
-          lng="<%= row.lng %>"
-        >
-          <h2><%= row.title %></h2>
-          <p><%= row.description %></p>
-          <% if (row.vimeo) { %>
-          <iframe src="https://player.vimeo.com/video/<%= row.vimeo %>" width="300" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          <% } %>
-        </map-marker>
-        <% }) %>
-      </leaflet-map>
+      <div class="aspect-outer">
+        <div class="aspect-inner">
+          <leaflet-map class="duwamish" lat="47.35650163792198" lng="-121.90704345703124" zoom="8">
+            <map-options>{ "scrollWheelZoom": false }</map-options>
+            <tile-layer layer="esriTopographic"></tile-layer>
+            <!-- <tile-layer layer="esriTerrainLabels"></tile-layer> -->
+            <% json.DuwamishSwimmer_POI.forEach(function(row, i) { %>
+            <map-marker
+              class="river-marker <%= row.month %>-<%= row.year %>"
+              lat="<%= row.lat %>"
+              lng="<%= row.lng %>"
+              id="trip-<%= i.toString(36) %>"
+            >
+              <!-- <h2><%= row.title %></h2> -->
+              <div class="date">
+                <%= row.month %> <%= row.year %>
+              </div>
+              <% if (row.vimeo) { %>
+              <iframe src="https://player.vimeo.com/video/<%= row.vimeo %>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <% } %>
+              <p><%= row.description %></p>
+            </map-marker>
+            <% }) %>
+          </leaflet-map>
+        </div>
+      </div>
+      <div class="controls">
+        <a class="previous button">&lt; Previous</a>
+        <a class="next button">Next &gt;</a>
+      </div>
     </responsive-child>
 
     <script src="app.js" async></script>
