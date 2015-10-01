@@ -12,7 +12,7 @@ var L = mapElement.leaflet;
 var map = mapElement.map;
 var points = Object.keys(mapElement.lookup).sort().map(k => mapElement.lookup[k]);
 
-map.fitBounds([[47.1019, -122.412],[47.614,-121.262]]);
+map.fitBounds([[47.134, -122.433],[47.594,-121.295]]);
 
 var river = L.polyline(path, { color: "#005", opacity: 1, weight: 2, smoothFactor: 1.5 });
 river.addTo(map);
@@ -25,9 +25,17 @@ var step = function(i) {
   var point = points[i];
   var popup = point.getPopup();
   popup.options.maxWidth = isMobile()? 200 : 300;
-  console.log(popup.options);
+  popup.options.minWidth = isMobile()? 200 : 300;
+  popup.options.width = isMobile()? 200 : 300;
   point.openPopup();
 }
+
+points.forEach(function(point) {
+  point.on("click", function() {
+    index = points.indexOf(point);
+    step(index);
+  });
+});
 
 // step(index);
 
