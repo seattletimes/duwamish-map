@@ -5,8 +5,8 @@
       "path": "defined-curiousness"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/local/duwamish-swim"
     }
   },
   "title": "",
@@ -16,6 +16,6 @@
   "tags": [],
   "image": "",
   "sheets": ["1K0bO5jkep1NJAHHWdn1zZ8FEaWm1qED1_tHzxvdCUFI"],
-  "production": false,
+  "production": true,
   "embedded": true
 }
